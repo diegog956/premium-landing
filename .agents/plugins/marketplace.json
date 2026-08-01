@@ -1,0 +1,20 @@
+{
+  "name": "premium-landing-public",
+  "interface": {
+    "displayName": "Premium Landing"
+  },
+  "plugins": [
+    {
+      "name": "premium-landing",
+      "source": {
+        "source": "local",
+        "path": "./plugins/premium-landing"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

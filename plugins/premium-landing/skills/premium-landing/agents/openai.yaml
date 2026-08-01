@@ -1,0 +1,4 @@
+interface:
+  display_name: "Premium Landing"
+  short_description: "Research, design, build, and validate premium landings"
+  default_prompt: "Use $premium-landing to run adaptive discovery and build a premium landing page end to end; when I request immediate execution, proceed one-shot except for genuinely blocking facts or authority."

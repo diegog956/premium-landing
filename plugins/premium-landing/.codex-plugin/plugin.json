@@ -1,0 +1,23 @@
+{
+  "name": "premium-landing",
+  "version": "0.1.0",
+  "description": "Research, design, build, validate, and publish premium conversion-focused landing pages end to end.",
+  "author": {
+    "name": "Diego Gerardo",
+    "url": "https://github.com/diegog956"
+  },
+  "homepage": "https://github.com/diegog956/premium-landing",
+  "repository": "https://github.com/diegog956/premium-landing",
+  "license": "MIT",
+  "keywords": ["landing-page", "web-design", "astro", "cloudflare", "conversion"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Premium Landing",
+    "shortDescription": "Landing pages premium de punta a punta",
+    "longDescription": "Investiga el negocio y referencias visuales, crea una landing premium, la valida y prepara previews y publicación con controles de calidad.",
+    "developerName": "Diego Gerardo",
+    "category": "Developer Tools",
+    "capabilities": ["Read", "Write", "Interactive"],
+    "defaultPrompt": "Usa $premium-landing para crear una landing page premium de punta a punta."
+  }
+}
