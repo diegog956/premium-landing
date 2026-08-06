@@ -6,6 +6,8 @@ Preserve an existing project's stack when it is suitable. Before installing or r
 
 For a new or empty project, default to a static Astro project with TypeScript, npm, component-scoped or native CSS, and Cloudflare Pages. Add client-side frameworks only for genuinely interactive islands, and add animation, video, WebGL, or 3D only when the approved direction justifies their cost. Deviate when a material requirement makes another choice superior and record why.
 
+Use [Motion Primitives](https://motion-primitives.com/) only when a specific approved interaction materially benefits from it. Treat it as an implementation source, not an art director: restyle every adopted primitive to the visual contract and verify keyboard behavior, reduced motion, responsive behavior, runtime cost, and current licensing. Do not add React, Tailwind, Motion, or another client runtime to an otherwise static Astro page solely for one effect when CSS, the Web Animations API, or a smaller native implementation can reproduce it well. Core and paid assets require their own current license review; any purchase needs explicit operator approval.
+
 Initialize a local Git repository for a new project, establish the ignore rules before the first commit, and keep generated review artifacts tied to a clean commit. Before `PREVIEW`, require a clean `HEAD`, a private operator-owned remote and pushed commit, then record its SHA. Never make a client repository public by default.
 
 Build from the approved strategic and visual direction:
@@ -16,6 +18,8 @@ Build from the approved strategic and visual direction:
 - use real or authorized assets and generate missing bespoke visuals when appropriate;
 - keep responsive behavior intentional rather than collapsing desktop mechanically;
 - implement search and social-share metadata, forms, analytics hooks, and integrations that are actually in scope.
+
+Use [Realtime Colors](https://www.realtimecolors.com/) optionally after brand and reference authority are resolved to prototype assignments for background, text, primary, secondary, and accent colors. Record promising values as candidates, not canonical tokens. Confirm the final palette in the actual design proof, including hover, focus, disabled, error, media-overlay, and text states; verify WCAG contrast independently. A valid brand kit and the approved visual contract always outrank the tool's preview.
 
 When Figma is the approved source, verify access and ownership or implementation authorization, inspect the actual file rather than only exported images, and reuse authorized exportable assets. Match composition, typography, spacing, color, components, and states at the authored viewports, then infer intermediate and mobile behavior from constraints and the brief. Do not preserve inaccessible, brittle, or impossible fixed-canvas behavior merely for literal similarity; document material adaptations, unavailable fonts/assets, and unsupported interactions.
 

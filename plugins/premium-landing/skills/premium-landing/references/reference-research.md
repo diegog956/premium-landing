@@ -28,6 +28,16 @@ For actual templates, also inspect current Framer Marketplace and Webflow Templa
 
 Treat Dribbble, Behance, and Pinterest as art-direction sources, not authoritative implementation references.
 
+## Supporting tools are not inspiration candidates
+
+Keep specialized production aids outside the visual-candidate pool:
+
+- [Motion Primitives](https://motion-primitives.com/) is an optional source of motion implementations.
+- [Haikei](https://haikei.app/) is an optional generator of locally stored vector assets.
+- [Realtime Colors](https://www.realtimecolors.com/) is an optional palette-prototyping and validation aid.
+
+Do not present these tools among the three ranked visual options or the wildcard, and do not let their defaults establish art direction. An actual showcased page or template may qualify independently only when its own executed design fits the brief and is evaluated like every other candidate.
+
 ## Evidence pack
 
 For each serious candidate capture or record:

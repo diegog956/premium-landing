@@ -46,3 +46,5 @@ Before discarding unique high-quality information through lossy conversion, conf
 ## Generated media
 
 Use generated media when it improves art direction or fills a real asset gap. Do not use synthetic people, products, facilities, results, or events where viewers could reasonably interpret them as factual evidence. Match the approved visual language and verify output at final display size.
+
+Use [Haikei](https://haikei.app/) when the approved direction specifically calls for abstract vector backgrounds, patterns, waves, layered forms, or similar generative geometry. Never add its output automatically as decoration or use generic blobs and waves merely to make a page look designed. Export the chosen result locally as SVG, record the source URL, date, license, and reproducible settings when available, then sanitize and optimize it before use. Remove unnecessary metadata, avoid remote runtime dependencies, test responsive cropping and contrast, and verify that the asset remains lightweight and distinctive in the final composition.

@@ -92,6 +92,8 @@ Keep the root `README.md` concise and current with the actual prerequisites and 
 
 Read [asset-sourcing.md](references/asset-sourcing.md) before downloading or generating visual assets.
 
+Use Motion Primitives, Haikei, and Realtime Colors only in the supporting roles and under the safeguards defined in the referenced build, asset, and research guidance. They are optional production aids, never required dependencies or visual authorities.
+
 Read [deployment-and-integrations.md](references/deployment-and-integrations.md) when deployment, forms, lead delivery, or analytics are in scope.
 
 Use available specialist skills only for their actual strengths. Keep strategic and visual decisions coordinated in this skill. When a named specialist is unavailable or inapplicable, apply the equivalent checks directly and record the limitation instead of blocking the project.
@@ -113,6 +115,7 @@ When an approved Landing visual system should inform a sibling Backoffice or oth
 ## Tool and skill routing
 
 - Use a real browser or Playwright to observe live pages, responsive behavior, and motion.
+- Use Motion Primitives only as an optional implementation source for purposeful motion, Haikei only for direction-appropriate locally stored vector assets, and Realtime Colors only to prototype and challenge palette assignments before validating them in the real interface.
 - When implementing from Figma, use its structured data and screenshots together; load the applicable Figma skill before its tools. Preserve authorized visual intent while translating fixed frames into accessible, responsive behavior. Never rely on screenshot tracing alone, and validate the real implementation against the supplied frames at matching viewports.
 - Use web research for current market, competitor, customer-language, and reference discovery.
 - Use `customer-research` to analyze supplied evidence or gather reliable public voice-of-customer material when it can materially improve positioning or copy. Label sources, confidence, proxies, and gaps; never invent quotes or personas. Do not block the build when sufficient evidence is unavailable.
