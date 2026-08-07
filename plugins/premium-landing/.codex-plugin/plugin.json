@@ -1,7 +1,7 @@
 {
   "name": "premium-landing",
-  "version": "0.1.1",
-  "description": "Research, design, build, validate, and publish premium conversion-focused landing pages end to end.",
+  "version": "0.2.0",
+  "description": "Research, design, build, validate, and publish premium landing pages with bundled anti-slop and motion direction.",
   "author": {
     "name": "Diego Gerardo",
     "url": "https://github.com/diegog956"

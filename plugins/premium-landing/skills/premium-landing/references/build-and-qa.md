@@ -87,6 +87,10 @@ Run `ui-visual-validator` on those current screenshots before exposing the local
 - a material mismatch with the approved composition, visual grammar, asset treatment, or responsive intent;
 - obvious placeholder, generic-template, or collage-like treatment that contradicts the premium direction.
 
+Before the visual validator, run the anti-slop proof gate in [creative-orchestration.md](creative-orchestration.md). A technically correct page still fails when its composition could be transferred to an unrelated business without meaningful change, when its distinctive decisions cannot be traced to the brief/reference/assets, or when it reproduces an unapproved AI-associated default. Fix the design rather than explaining it away.
+
+After the static proof passes, run `find-animation-opportunities`, record both accepted and deliberately rejected candidates, and implement only accepted motion. Run `review-animations` against the real rendered behavior and block on unjustified, sluggish, inaccessible, non-interruptible, or performance-heavy motion. If a named Emil skill is unavailable, apply the equivalent criteria from the approved motion plan directly and record the limitation.
+
 Fix the cause, recapture both viewports, and rerun the validator until the proof passes. Do not show known blocking defects as a draft and ask the operator to discover them. Low-severity polish items may accompany the preview only when clearly disclosed.
 
 Once the proof passes:
@@ -116,7 +120,8 @@ Repeat until material defects are resolved. Apply checks proportionally by envir
 8. Run `seo-audit` in audit-only mode against the rendered implementation when its checks are meaningful in the current environment. Validate environment-specific indexing directives, canonical URLs, redirect/status behavior, non-HTML indexation policy, site name/favicon, conditional `hreflang` and local-business consistency, entity consistency, direct answerability, evidence quality, Open Graph/Twitter metadata, the social image, sitemap, robots, and JSON-LD; validate JSON-LD in a real browser or structured-data validator, not through stripped text extraction.
 9. Run `impeccable` audit and `web-design-guidelines` against the implementation.
 10. Run `ui-visual-validator` against the latest desktop and mobile captures.
-11. Fix causes, recapture, and verify again.
+11. Run `review-animations` when any motion exists and inspect it in the browser at normal speed, reduced motion, and slow motion when timing or physicality is uncertain.
+12. Fix causes, recapture, and verify again.
 
 Use automated audits as evidence, not substitutes for visual inspection.
 
