@@ -14,6 +14,8 @@ Do not average specialist opinions. Resolve conflicts in this order:
 
 No specialist may silently replace the chosen reference grammar, stack, brand typography, or content strategy with its own defaults. More skills do not create more authority.
 
+For the original one-shot, replace item 2 with the internally authored creative premise recorded in the brief. Give `frontend-design` genuine authorship rather than asking it to imitate discovered sites. Let `design-taste-frontend` challenge that premise before coding and again against the rendered result, but never allow it to normalize the work into its own recurring defaults. Keep external visual candidates hidden from this creative track until its production-ready commit exists.
+
 ## Preflight artifact
 
 Before coding, add a concise creative preflight to `.premium-landing/brief.md`:
@@ -43,6 +45,8 @@ Inspect the rendered desktop and mobile proof plus the implementation. Fail the 
 - distinctiveness exists only in decoration rather than composition, hierarchy, content, imagery, or interaction;
 - the agent explains why the design is premium instead of demonstrating it in screenshots;
 - Taste rules are followed mechanically at the expense of the approved direction.
+
+For an original one-shot, require at least five material decisions traceable to this specific business across composition, content hierarchy, typography, imagery, interaction, or responsive behavior. Also fail when the full page falls back to a standard landing anatomy, repeats one component treatment mechanically, uses polished decoration to disguise weak content structure, or feels authored only in the hero. No external reference is required; absence of one raises the burden of coherent authorship.
 
 Record the failed cause, revise the proof, and rerun the gate. Do not expose a known generic proof for operator approval.
 

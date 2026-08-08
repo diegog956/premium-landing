@@ -18,6 +18,12 @@ Never convert an informational source into a selected visual reference merely be
 
 The base governs the visual grammar. Normalize imported ideas into that grammar to avoid a fragmented result.
 
+## Original one-shot is not a reference
+
+When direction remains open, create one complete original landing in parallel with external discovery under [original-one-shot.md](original-one-shot.md). Keep it visually independent: do not borrow composition, typography, motifs, motion, or asset treatment from candidates discovered in the same run.
+
+Present it alongside external options but label it as a first-party implementation, not a template, reference, wildcard, or synthesis. External candidates show possible directions; the original must prove its direction through a real production-ready local build. Do not lower either side's evaluation standard because one is implemented and the others are observed.
+
 ## Source quality
 
 Prefer direct live URLs because they preserve layout, responsive behavior, motion, and interaction. Use gallery captures when the live page is unavailable or has changed.

@@ -33,9 +33,11 @@ Select brand-owned, licensed third-party, or bespoke generated assets by maximum
 4. Resolve objective issues while the copy is still a draft. Escalate any change that alters an approved offer, claim, positioning decision, or brand voice.
 5. Run the separate `humanizer` audit described below.
 
-After the copy is strategically and factually sound, run `humanizer` in audit-only mode. Treat individual patterns as weak signals. Report only credible clusters or passages that weaken the intended voice, including the excerpt, detected pattern, severity, and an optional alternative. Do not edit the source copy unless the user explicitly approves it. After any approved rewrite, recheck factual meaning, offer clarity, conversion intent, and brand terminology.
+After the copy is strategically and factually sound, run `humanizer` in audit-only mode. Treat individual patterns as weak signals. Report only credible clusters or passages that weaken the intended voice, including the excerpt, detected pattern, severity, and an optional alternative. Do not edit user-supplied or previously approved copy unless the user explicitly approves it.
 
-Humanizer findings are advisory and non-blocking. A severe finding must be surfaced before copy approval, but an intentionally unchanged passage does not prevent completion.
+For agent-generated, still-unapproved one-shot copy, a credible AI-pattern cluster is blocking: send the finding back to `copywriting`, rewrite the affected passage in the evidenced brand/customer voice, then rerun factual, CRO, and humanizer checks. `humanizer` remains an auditor and never becomes the author. Do not add fake informality, invented anecdotes, arbitrary errors, slang, or personality unsupported by the business merely to appear human.
+
+Humanizer findings are advisory for user-supplied or approved copy. They are blocking for agent-generated original one-shot copy until resolved or explicitly accepted by the operator.
 
 Avoid generic card grids, excessive pills, nested containers, gratuitous gradients, decorative dashboards, and animation that weakens clarity or performance. Distinctiveness must come from the brief and art direction, not novelty for its own sake.
 
@@ -102,7 +104,7 @@ Once the proof passes:
 5. Return the passing desktop and mobile screenshots as supporting evidence, but keep the live page as the primary review surface.
 6. Return control and ask for visual-direction feedback. If rejected, revise only the proof until it passes again; do not continue building the remaining page. Apply revisions locally so the same URL updates when the development server supports hot reload.
 
-This is not final QA. It is the blocking direction gate for composition, typography, imagery, motion, hierarchy, and responsive design before expensive implementation. Approval authorizes continuation, not publication. If the operator requests uninterrupted one-shot execution, the agent may approve the direction internally only after the same evidence and gate pass, then provide the local URL with the completed result.
+This is not final QA. It is the blocking direction gate for composition, typography, imagery, motion, hierarchy, and responsive design before expensive implementation. Approval authorizes continuation, not publication. In the original one-shot or another explicitly uninterrupted execution, the agent may approve the direction internally only after the same evidence and gate pass; it must then complete and validate the whole landing before returning a local URL.
 
 A loopback URL works only on the same computer. Use the explicit `PREVIEW` workflow for review from an iPhone, another device, or a client; do not expose a LAN server or create a remote deployment silently.
 
