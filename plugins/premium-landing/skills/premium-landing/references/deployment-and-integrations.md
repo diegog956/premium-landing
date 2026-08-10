@@ -51,6 +51,8 @@ Choose according to the client's actual sales process. Prefer existing destinati
 
 Do not add D1 by default. Use durable storage or a queue only when lead persistence, retries, recovery, history, a dashboard, or later CRM integration justifies the added personal-data and operational burden. Collect the minimum data, define retention, protect access, and never represent an email as delivered merely because an API accepted it. Define the success contract, test the real destination end to end, and add failure visibility appropriate to the client's reliance on the form.
 
+Choose an inline success state or dedicated thank-you page from the actual journey, not as a universal convention. Either must be accessible, refresh-safe, clear about whether the request was merely received or actually delivered, explicit about truthful next steps, and compatible with authorized conversion measurement. Keep personal data out of URLs and analytics payloads. Test failure, retry, duplicate submission, direct navigation, and refresh behavior; do not allow a public thank-you URL alone to generate a trusted conversion event.
+
 ## Analytics
 
 Use the smallest measurement setup that answers the business question:

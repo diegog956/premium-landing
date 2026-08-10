@@ -41,6 +41,20 @@ Humanizer findings are advisory for user-supplied or approved copy. They are blo
 
 Avoid generic card grids, excessive pills, nested containers, gratuitous gradients, decorative dashboards, and animation that weakens clarity or performance. Distinctiveness must come from the brief and art direction, not novelty for its own sake.
 
+## Conditional launch experience
+
+Add these only when the actual business, content depth, or conversion journey justifies them. Absence is not a defect by itself:
+
+- Keep the primary action understandable and reachable in the initial priority viewport when the page expects immediate conversion. Do not force an above-the-fold CTA when the offer requires explanation first.
+- Provide purposeful internal links for multi-page sites and long pages when they improve discovery or orientation. Add visible breadcrumbs only for genuine hierarchy; never add them to a simple one-page landing for SEO theater.
+- When a form, booking, checkout, or lead action completes, provide an accessible success state or dedicated thank-you destination that confirms exactly what happened, prevents accidental resubmission, explains the truthful next step, and supports authorized conversion measurement. Never claim delivery or response merely because a request was accepted.
+- Use a sticky mobile CTA only when repeated access materially reduces conversion friction. Verify safe-area spacing, keyboard behavior, content obstruction, dismissibility when appropriate, and that it does not compete with consent banners or critical controls.
+- Include case studies, reviews, customer logos, response-time commitments, or other proof only when their provenance, permission, wording, and current accuracy are verified. Record the source. Never invent, composite, silently paraphrase, or present an operational aspiration as a promise.
+- If a response-time promise is approved, connect it to the real staffed channel, operating hours, timezone, exclusions, and ownership. Omit it when the business cannot reliably honor it.
+- Use authentic team imagery when the people behind the service are materially relevant to trust and approved images exist. Never use stock or generated people while implying they are the real team.
+
+Do not impose a fixed FAQ count. Add only real, material questions that improve decision-making and can be answered accurately without duplicating the page.
+
 ## Search, AI answers, indexing, and social sharing
 
 Implement these as release requirements, not optional polish:
@@ -116,8 +130,8 @@ Repeat until material defects are resolved. Apply checks proportionally by envir
 2. Capture representative desktop and mobile screenshots. Include approximately 1440×900, 1280×800, and 390×844 unless the audience requires different priority devices.
 3. Inspect the complete page and critical sections visually.
 4. Compare against reference evidence when references exist.
-5. Test navigation, CTAs, forms, keyboard access, focus, reduced motion, and error states.
-6. Check overflow, wrapping, tap targets, contrast, semantics, image sizing, loading behavior, console errors, and broken links.
+5. Test navigation, internal links, CTAs, forms, success/thank-you behavior, duplicate-submission resistance, keyboard access, focus, reduced motion, and error states.
+6. Check overflow, wrapping, tap targets, contrast, semantics, meaningful-image alternatives, decorative-image handling, image sizing, loading behavior, console errors, and broken links.
 7. Check performance-sensitive choices and remove avoidable weight or jank.
 8. Run `seo-audit` in audit-only mode against the rendered implementation when its checks are meaningful in the current environment. Validate environment-specific indexing directives, canonical URLs, redirect/status behavior, non-HTML indexation policy, site name/favicon, conditional `hreflang` and local-business consistency, entity consistency, direct answerability, evidence quality, Open Graph/Twitter metadata, the social image, sitemap, robots, and JSON-LD; validate JSON-LD in a real browser or structured-data validator, not through stripped text extraction.
 9. Run `impeccable` audit and `web-design-guidelines` against the implementation.
@@ -136,6 +150,7 @@ Require:
 - faithful reference adaptation when requested;
 - stable layout across relevant viewport widths;
 - functional primary conversion path;
+- truthful, accessible post-conversion confirmation when a form or transaction is in scope;
 - keyboard-usable and semantically reasonable UI;
 - no known material console, build, or runtime errors;
 - acceptable loading and motion behavior;
@@ -144,6 +159,7 @@ Require:
 - valid locale and local-business signals whenever those scopes exist;
 - clear, consistent and evidence-backed business entities and answers suitable for SEO/GEO/AEO;
 - verified Open Graph/Twitter metadata and a working 1200×630 social-share image;
+- verified provenance and permission for every published testimonial, review, case study, customer logo, team representation, or response-time claim;
 - a final rendered inspection after the last change.
 
 Do not pass a release with any known critical or high-severity defect. At minimum require a clean production build, no unhandled runtime error on critical paths, no horizontal overflow at the selected desktop and mobile viewports, a tested primary CTA, keyboard access to interactive controls, and a successful end-to-end form test when a form is in scope. Treat numeric performance targets as project-specific budgets; record any accepted exception.
